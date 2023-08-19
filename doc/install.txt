@@ -1,0 +1,13 @@
+достаточно создать папку, перенести wordpress и поменять права
+sudo chown -R daemon:daemon genius/
+
+wp-config.php
+define( 'WP_DEBUG', true );
+
+(142 урок делаем слайдер на wp) 
+
+===== plugins
+redux-framework - для добавления кастомных настроек,
+например для смены цветов, для контактов (141 урок)
+
+contact form 7 - для отправки писем
