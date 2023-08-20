@@ -1,5 +1,11 @@
 достаточно создать папку, перенести wordpress и поменять права
-sudo chown -R daemon:daemon genius/
+sudo chown -R daemon:daemon папка_с_сайтом/
+
+еще нужно обязательно сделать
+sudo setfacl -R -m u:daemon:rwx папка_с_сайтом
+sudo setfacl -R -d -m u:daemon:rwx папка_с_сайтом
+sudo getfacl папка_с_сайтом
+что-бы можно было удалять файлы wp, от своего пользователя
 
 wp-config.php
 define( 'WP_DEBUG', true );
@@ -7,6 +13,10 @@ define( 'WP_DEBUG', true );
 (142 урок делаем слайдер на wp) 
 
 ===== plugins
+wooCommerce
+
+Advanced WordPress Reset - для сброса данных базы
+
 redux-framework - для добавления кастомных настроек,
 например для смены цветов, для контактов (141 урок)
 

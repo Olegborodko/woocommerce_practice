@@ -1,0 +1,836 @@
+# Translation of Themes - Joyas Shop in Japanese
+# This file is distributed under the same license as the Themes - Joyas Shop package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-19 13:43:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Joyas Shop\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Joyas Shop is a minimalist multipurpose WordPress eCommerce theme. Joyas is one of the top ways to launch your new Storefront for any business quickly and with professional results. All functions are easily added to your store, adapted to fit your needs, and can represent the goals and values of the business. Joyas theme is a top choice for all the top functions, useability, and relaxed layouts for an approachable and easy-to-use site. You can sell various products or services on your eCommerce sites, like jewelry, cosmetics, gift store, handmade crafts, watches, home decor gadgets, furniture, diamond city, sports items, etc. Joyas Shop all template is compatible with Gutenberg, Elementor, Yoast SEO, WooCommerce, Contact Form 7, and many other plugins. Besides, Its fully responsive layout and optimized for retina screens and modern browsers. Besides, The Joyas' elegant and pixel-perfect design templates help to create a unique eCommerce website. So if you are looking for an elegant store theme? Look no further! Browse the demo: https://demo.athemeart.com/joyas/"
+msgstr ""
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Joyas Shop"
+msgstr ""
+
+#: woocommerce/result-count.php:64
+msgid "ALL:"
+msgstr ""
+
+#: woocommerce/result-count.php:60
+msgid "View:"
+msgstr "表示:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:48
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "編集 <span class=\"screen-reader-text\">%s</span>"
+
+#: template-parts/content-page.php:35
+msgid "Pages:"
+msgstr "固定ページ:"
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "検索キーワードに一致するものが見つかりませんでした。 別のキーワードで試してみてください。"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿を公開する準備はできましたか ? <a href=\"%1$s\">ここから始めましょう</a>。"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "何も見つかりませんでした"
+
+#: sidebar.php:26
+msgid "Meta"
+msgstr "メタ情報"
+
+#: sidebar.php:22
+msgid "Archives"
+msgstr "アーカイブ"
+
+#. translators: number of items in the mini cart.
+#: inc/woocommerce.php:236
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+
+#: inc/woocommerce.php:232
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/theme-core.php:220
+msgid "Default Header Image"
+msgstr "デフォルトのヘッダー画像"
+
+#: inc/theme-core.php:147
+msgid "Footer"
+msgstr ""
+
+#: inc/theme-core.php:137
+msgid "Header Slider"
+msgstr ""
+
+#: inc/theme-core.php:129 inc/theme-core.php:139 inc/theme-core.php:149
+msgid "Add widgets here."
+msgstr "ここにウィジェットを追加。"
+
+#: inc/theme-core.php:127
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: inc/theme-core.php:53
+msgid "Topbar Menu"
+msgstr ""
+
+#: inc/theme-core.php:52
+msgid "Primary"
+msgstr "メイン"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3526
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグイン %1$s をインストール中 (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3524
+msgid "All installations have been completed."
+msgstr "すべてのインストールが完了しました。"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3523
+msgid "%1$s installed successfully."
+msgstr "%1$s のインストールを完了しました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3521
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "更新プロセスを開始しています。サーバーによっては少し時間がかかるかもしれません。しばらくお待ちください。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3518
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s プラグインをインストール、有効化中 (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3516
+msgid "All installations and activations have been completed."
+msgstr "すべてのインストールと有効化が完了しました。"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3515
+#: inc/tgm/class-tgm-plugin-activation.php:3523
+msgid "Hide Details"
+msgstr "詳細を非表示"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3515
+#: inc/tgm/class-tgm-plugin-activation.php:3523
+msgid "Show Details"
+msgstr "詳細を表示"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3515
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s のインストールと有効化が完了しました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3513
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "インストールと有効化プロセスを開始しています。サーバーによっては少し時間がかかるかもしれません。しばらくお待ちください。"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+msgid "The installation of %1$s failed."
+msgstr "%1$s のインストールに失敗しました。"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgm/class-tgm-plugin-activation.php:3507
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "%1$s のインストール中にエラーが発生しました: <strong>%2$s</strong>。"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3504
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s プラグインを更新中 (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3164
+msgid "Plugin activation failed."
+msgstr "プラグインの有効化に失敗しました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2940
+msgid "No plugins are available to be activated at this time."
+msgstr "現時点で有効化できるプラグインはありません。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2914
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "有効化するプラグインが選択されていません。何も実行しませんでした。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2808
+msgid "No plugins are available to be updated at this time."
+msgstr "現在更新できるプラグインはありません。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2806
+msgid "No plugins are available to be installed at this time."
+msgstr "現在インストールできるプラグインはありません。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2765
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "更新するプラグインが選択されていません。何も実行しませんでした。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2763
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "インストールするプラグインが選択されていません。何も実行しませんでした。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2732
+msgid "Activate"
+msgstr "有効化"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2729
+msgid "Update"
+msgstr "更新"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2723
+msgid "Install"
+msgstr "インストール"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2690
+msgid "Upgrade message from the plugin author:"
+msgstr "プラグイン作者からの更新メッセージ:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2620
+msgid "Activate %2$s"
+msgstr "%2$s 有効化"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2614
+msgid "Update %2$s"
+msgstr "%2$s 更新"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2609
+msgid "Install %2$s"
+msgstr "%2$s インストール"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2560
+msgid "Status"
+msgstr "ステータス"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2559
+msgid "Version"
+msgstr "バージョン"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2555
+msgid "Type"
+msgstr "タイプ"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2554
+msgid "Source"
+msgstr "ソース"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2553
+msgid "Plugin"
+msgstr "プラグイン"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2539
+msgid "No plugins to install, update or activate."
+msgstr "インストール・更新・有効化可能なプラグインがありません。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2516
+msgid "Available version:"
+msgstr "利用可能なバージョン:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2504
+msgid "Minimum required version:"
+msgstr "最低必須バージョン:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2496
+msgid "Installed version:"
+msgstr "インストール済みバージョン:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2488
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "不明"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2406
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "未有効化 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2402
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "利用可能な更新 <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2398
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "未インストール <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2394
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "すべて <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/tgm/class-tgm-plugin-activation.php:2348
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s、%2$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2339
+msgid "Update recommended"
+msgstr "更新が推奨されています"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2336
+msgid "Requires Update"
+msgstr "更新が必要です"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2333
+msgid "Required Update not Available"
+msgstr "必要な更新が利用できません"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2327
+msgid "Active"
+msgstr "有効"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2325
+msgid "Installed But Not Activated"
+msgstr "インストール済み、停止中"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2321
+msgid "Not Installed"
+msgstr "未インストール"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2304
+msgid "Pre-Packaged"
+msgstr "パッケージ化済み"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2301
+msgid "External Source"
+msgstr "外部ソース"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2298
+msgid "WordPress Repository"
+msgstr "WordPress リポジトリ"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2282
+msgid "Recommended"
+msgstr "推奨"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2279
+msgid "Required"
+msgstr "必須"
+
+#. translators: %s: version number
+#: inc/tgm/class-tgm-plugin-activation.php:1988
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:1127
+#: inc/tgm/class-tgm-plugin-activation.php:2954
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "と"
+
+#: inc/tgm/class-tgm-plugin-activation.php:943
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "リモートプラグインパッケージは複数のファイルで構成されていますが、ファイルが1つのフォルダー内にパッケージされていません。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:940
+#: inc/tgm/class-tgm-plugin-activation.php:943
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "プラグイン開発者に連絡し、WordPress のガイドラインに従ってプラグインをパッケージ化するように依頼してください。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:940
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "リモートプラグインパッケージには指定されたスラッグのフォルダーがないため、名前の変更ができませんでした。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:529
+msgid "Update Required"
+msgstr "更新が必要です"
+
+#: inc/tgm/class-tgm-plugin-activation.php:528
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "使用中のテーマとの互換性を保つため、このプラグインを更新する必要があります。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:403
+msgid "Please contact the administrator of this site for help."
+msgstr "ヘルプが必要な場合はこのサイトの管理者にお問い合わせください。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:402
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "インストール・更新・有効化可能な必須・推奨プラグインがあります。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:401
+msgid "Dismiss this notice"
+msgstr "この通知を非表示"
+
+#. translators: 1: dashboard link.
+#: inc/tgm/class-tgm-plugin-activation.php:400
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "すべてのプラグインをインストールし、有効化しました。%1$s"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:398
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "プラグインを有効化できませんでした。このテーマには上位バージョンの %s が必要です。プラグインを更新してください。"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:396
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "操作を実行しませんでした。プラグイン %1$s はすでに有効です。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:394
+#: inc/tgm/class-tgm-plugin-activation.php:2958
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "以下のプラグインを有効化しました:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:393
+#: inc/tgm/class-tgm-plugin-activation.php:3165
+msgid "Plugin activated successfully."
+msgstr "プラグインを有効化しました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:392
+#: inc/tgm/class-tgm-plugin-activation.php:833
+#: inc/tgm/class-tgm-plugin-activation.php:2539
+#: inc/tgm/class-tgm-plugin-activation.php:3586
+msgid "Return to the Dashboard"
+msgstr "ダッシュボードに戻る"
+
+#: inc/tgm/class-tgm-plugin-activation.php:391
+msgid "Return to Required Plugins Installer"
+msgstr "必須プラグインのインストール画面に戻る"
+
+#: inc/tgm/class-tgm-plugin-activation.php:386
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "プラグインの有効化を開始"
+
+#: inc/tgm/class-tgm-plugin-activation.php:381
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "プラグインの更新を開始"
+
+#: inc/tgm/class-tgm-plugin-activation.php:376
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "プラグインのインストールを開始"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:370
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "以下のテーマ推奨プラグインは、現在有効化されていません: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:363
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "以下のテーマ必須プラグインは、現在有効化されていません: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:356
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "利用可能な更新があります: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:349
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "このテーマとの最大限の互換性を確保するため、以下のプラグインを最新バージョンに更新する必要があります: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:342
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "このテーマは以下のプラグインを推奨しています: %1$s。"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:335
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "このテーマには以下のプラグインが必要です: %1$s。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "プラグイン API で問題が発生しました。"
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "プラグインの更新中: %s"
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "プラグインをインストール中: %s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "プラグインのインストール"
+
+#: inc/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "必須プラグインをインストール"
+
+#: inc/template-functions.php:281
+msgid "Add a menu"
+msgstr "メニューを追加"
+
+#. translators: 1: date, 2: time
+#: inc/template-functions.php:234
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: inc/premium-screen/index.php:17
+msgid "Documentation"
+msgstr ""
+
+#: inc/premium-screen/index.php:15
+msgid "Live Demo "
+msgstr ""
+
+#: inc/premium-screen/index.php:14
+msgid "Buy Now ( Pro )"
+msgstr ""
+
+#: inc/premium-screen/index.php:12
+msgid "Joyas eCommerce Theme"
+msgstr ""
+
+#: inc/customizer/theme-option.php:303
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/customizer/theme-option.php:286
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer/theme-option.php:269
+msgid "Page Layout Options"
+msgstr ""
+
+#: inc/customizer/theme-option.php:251
+msgid "Page Management"
+msgstr "ページ管理"
+
+#: inc/customizer/theme-option.php:241
+msgid "Hide Single post Meta Info ?"
+msgstr ""
+
+#: inc/customizer/theme-option.php:225
+msgid "Hide Blog Archive Meta Info?"
+msgstr ""
+
+#: inc/customizer/theme-option.php:207
+msgid "Read more text"
+msgstr ""
+
+#: inc/customizer/theme-option.php:190
+msgid "Content"
+msgstr ""
+
+#: inc/customizer/theme-option.php:189
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer/theme-option.php:186
+msgid "Choose Archive, Blog Page Content type as default"
+msgstr ""
+
+#: inc/customizer/theme-option.php:185
+msgid "Archive Content Type"
+msgstr ""
+
+#: inc/customizer/theme-option.php:144 inc/customizer/theme-option.php:167
+#: inc/customizer/theme-option.php:275
+msgid "No Sidebar"
+msgstr "サイドバーなし"
+
+#: inc/customizer/theme-option.php:143 inc/customizer/theme-option.php:166
+#: inc/customizer/theme-option.php:274
+msgid "Content - Primary Sidebar"
+msgstr ""
+
+#: inc/customizer/theme-option.php:142 inc/customizer/theme-option.php:165
+#: inc/customizer/theme-option.php:273
+msgid "Primary Sidebar - Content"
+msgstr ""
+
+#: inc/customizer/theme-option.php:139 inc/customizer/theme-option.php:162
+#: inc/customizer/theme-option.php:271
+msgid "Choose between different layout options to be used as default"
+msgstr ""
+
+#: inc/customizer/theme-option.php:138 inc/customizer/theme-option.php:161
+msgid "Blog Layout Options"
+msgstr ""
+
+#: inc/customizer/theme-option.php:121
+msgid "Blog Management"
+msgstr "ブログ管理"
+
+#: inc/customizer/theme-option.php:110
+msgid "Styling Options"
+msgstr "スタイル設定"
+
+#: inc/customizer/theme-option.php:97
+msgid "Youtube"
+msgstr ""
+
+#: inc/customizer/theme-option.php:79
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer/theme-option.php:61 inc/customizer/theme-option.php:80
+#: inc/customizer/theme-option.php:98 inc/customizer/theme-option.php:208
+msgid "Leave empty to hide"
+msgstr ""
+
+#: inc/customizer/theme-option.php:60
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer/theme-option.php:43
+msgid "Dialogue"
+msgstr ""
+
+#: inc/customizer/theme-option.php:26
+msgid "Top Bar"
+msgstr ""
+
+#: inc/customizer/theme-option.php:17
+msgid "Theme Options"
+msgstr "テーマ設定"
+
+#: inc/customizer/customizer.php:46
+msgid "Go PRO"
+msgstr ""
+
+#: inc/customizer/customizer.php:45
+msgid "Upgrade to Joyas Pro!"
+msgstr ""
+
+#: inc/customizer/core/default.php:36
+msgid "Continue Reading"
+msgstr "続きを読む"
+
+#: inc/customizer/core/default.php:35
+msgid "Copyright All right reserved"
+msgstr "Copyright All right reserved"
+
+#: inc/class/class-template-tags.php:150
+msgid "Tags"
+msgstr ""
+
+#. translators: %s: number of comments
+#: inc/class/class-template-tags.php:133
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+
+#: inc/class/class-template-tags.php:57
+msgid "Posted in "
+msgstr ""
+
+#: inc/class/class-template-tags.php:51
+msgid "Posted on "
+msgstr ""
+
+#: inc/class/class-template-tags.php:45
+msgid "By - "
+msgstr ""
+
+#: inc/class/class-post-related.php:228
+msgid "&nbsp;"
+msgstr ""
+
+#: inc/class/class-post-related.php:227
+msgid "Next"
+msgstr ""
+
+#: inc/class/class-post-related.php:226
+msgid "Previous"
+msgstr ""
+
+#: inc/class/class-post-related.php:214
+msgid "Posts navigation"
+msgstr "投稿ナビゲーション"
+
+#: inc/class/class-post-related.php:213
+msgid "Next Posts"
+msgstr ""
+
+#: inc/class/class-post-related.php:212
+msgid "Previous Posts"
+msgstr ""
+
+#: inc/class/class-post-related.php:175
+msgid "Next Article"
+msgstr "次の記事"
+
+#: inc/class/class-post-related.php:164
+msgid "Previous Article"
+msgstr "前の記事"
+
+#. translators:straing
+#: inc/class/class-header.php:312
+msgid "Search Results for: %s"
+msgstr "「%s」の検索結果"
+
+#: inc/class/class-header.php:227
+msgid "Search …"
+msgstr ""
+
+#: inc/class/class-header.php:116
+msgid "Skip to content"
+msgstr "コンテンツへスキップ"
+
+#. translators: 1: developer website, 2: WordPress url
+#: inc/class/class-footer.php:89
+msgctxt "credit to cms"
+msgid "WordPress"
+msgstr ""
+
+#. translators: 1: developer website, 2: WordPress url
+#: inc/class/class-footer.php:89
+msgid "https://wordpress.org"
+msgstr ""
+
+#. translators: 1: developer website, 2: WordPress url
+#: inc/class/class-footer.php:89
+msgctxt "credit - theme"
+msgid "Joyas Shop Theme"
+msgstr ""
+
+#. translators: 1: developer website, 2: WordPress url
+#: inc/class/class-footer.php:89
+msgid " %1$s By aThemeArt - Proudly powered by %2$s ."
+msgstr ""
+
+#. translators: 1: Current Year, 2: Blog Name
+#: inc/class/class-footer.php:79
+msgctxt "copyright date format"
+msgid "Y"
+msgstr ""
+
+#. translators: 1: Current Year, 2: Blog Name
+#: inc/class/class-footer.php:79
+msgid "Copyright &copy; %1$s %2$s. All Right Reserved."
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/about-themes.php:106
+msgid "Welcome! Thank you for choosing joyas! To fully take advantage of the best our theme can offer please make sure you visit our %1$sLearn More Page%2$s."
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/about-themes.php:104
+msgid "Dismiss"
+msgstr "非表示"
+
+#. translators: %s: plugin name.
+#: inc/about-themes.php:89
+msgid "Cheatin&#8217; huh?"
+msgstr "間違えましたか ?"
+
+#. translators: %s: plugin name.
+#: inc/about-themes.php:84
+msgid "Action failed. Please refresh the page and retry."
+msgstr "操作に失敗しました。ページを再読み込みし、もう一度お試しください。"
+
+#: inc/about-themes.php:9 inc/about-themes.php:11 inc/about-themes.php:108
+msgid "Learn More joyas"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:113
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr ""
+
+#: comments.php:112
+msgid "Your email address will not be published. Required fields are marked *."
+msgstr ""
+
+#: comments.php:109
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:104
+msgid "Comment"
+msgstr "コメント"
+
+#: comments.php:99
+msgid "Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: comments.php:96
+msgid "Website"
+msgstr "サイト"
+
+#: comments.php:90
+msgid "Your Email"
+msgstr "メールアドレス"
+
+#: comments.php:85
+msgid "Your Name"
+msgstr "お名前"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:42
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "「%2$s」への%1$s件のフィードバック"
+
+#. translators: 1: title.
+#: comments.php:36
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "「%1$s」への1件のフィードバック"
+
+#: 404.php:18
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "ここには何も見つかりませんでした。以下のリンクまたは検索をお試しください。"
+
+#: 404.php:17 inc/class/class-header.php:316
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "お探しのページが見つかりません。"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://athemeart.com"
+msgstr ""
+
+#. Author of the theme
+#, gp-priority: low
+msgid "aThemeArt"
+msgstr "aThemeArt"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://athemeart.com/downloads/joyas-store-wordpress-theme/"
+msgstr ""

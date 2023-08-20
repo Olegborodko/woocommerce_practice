@@ -1,0 +1,853 @@
+# Translation of Themes - Joyas Shop in English (Australia)
+# This file is distributed under the same license as the Themes - Joyas Shop package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-26 09:03:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: en_AU\n"
+"Project-Id-Version: Themes - Joyas Shop\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Joyas Shop is a minimalist multipurpose WordPress eCommerce theme. Joyas is one of the top ways to launch your new Storefront for any business quickly and with professional results. All functions are easily added to your store, adapted to fit your needs, and can represent the goals and values of the business. Joyas theme is a top choice for all the top functions, useability, and relaxed layouts for an approachable and easy-to-use site. You can sell various products or services on your eCommerce sites, like jewelry, cosmetics, gift store, handmade crafts, watches, home decor gadgets, furniture, diamond city, sports items, etc. Joyas Shop all template is compatible with Gutenberg, Elementor, Yoast SEO, WooCommerce, Contact Form 7, and many other plugins. Besides, Its fully responsive layout and optimized for retina screens and modern browsers. Besides, The Joyas' elegant and pixel-perfect design templates help to create a unique eCommerce website. So if you are looking for an elegant store theme? Look no further! Browse the demo: https://demo.athemeart.com/joyas/"
+msgstr "Joyas Shop is a minimalist multipurpose WordPress eCommerce theme. Joyas is one of the top ways to launch your new Storefront for any business quickly and with professional results. All functions are easily added to your store, adapted to fit your needs, and can represent the goals and values of the business. Joya's theme is a top choice for all the top functions, usability, and relaxed layouts for an approachable and easy-to-use site. You can sell various products or services on your eCommerce sites, like jewellery, cosmetics, gift store, handmade crafts, watches, home decor gadgets, furniture, diamond city, sports items, etc. Joyas Shop all template is compatible with Gutenberg, Elementor, Yoast SEO, WooCommerce, Contact Form 7, and many other plugins. Besides, Its fully responsive layout and optimized for retina screens and modern browsers. Besides, The Joyas' elegant and pixel-perfect design templates help to create a unique eCommerce website. So if you are looking for an elegant store theme? Look no further! Browse the demo: https://demo.athemeart.com/joyas/"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Joyas Shop"
+msgstr "Joyas Shop"
+
+#: woocommerce/result-count.php:64
+msgid "ALL:"
+msgstr "ALL:"
+
+#: woocommerce/result-count.php:60
+msgid "View:"
+msgstr "View:"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:48
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Edit <span class=\"screen-reader-text\">%s</span>"
+
+#: template-parts/content-page.php:35
+msgid "Pages:"
+msgstr "Pages:"
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nothing Found"
+
+#: sidebar.php:26
+msgid "Meta"
+msgstr "Meta"
+
+#: sidebar.php:22
+msgid "Archives"
+msgstr "Archives"
+
+#. translators: number of items in the mini cart.
+#: inc/woocommerce.php:236
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d item"
+msgstr[1] "%d items"
+
+#: inc/woocommerce.php:232
+msgid "View your shopping cart"
+msgstr "View your shopping cart"
+
+#: inc/theme-core.php:220
+msgid "Default Header Image"
+msgstr "Default Header Image"
+
+#: inc/theme-core.php:147
+msgid "Footer"
+msgstr "Footer"
+
+#: inc/theme-core.php:137
+msgid "Header Slider"
+msgstr "Header Slider"
+
+#: inc/theme-core.php:129 inc/theme-core.php:139 inc/theme-core.php:149
+msgid "Add widgets here."
+msgstr "Add widgets here."
+
+#: inc/theme-core.php:127
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: inc/theme-core.php:53
+msgid "Topbar Menu"
+msgstr "Topbar Menu"
+
+#: inc/theme-core.php:52
+msgid "Primary"
+msgstr "Primary"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3526
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing Plugin %1$s (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3524
+msgid "All installations have been completed."
+msgstr "All installations have been completed."
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3523
+msgid "%1$s installed successfully."
+msgstr "%1$s installed successfully."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3521
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "The installation process is starting. This process may take a while on some hosts, so please be patient."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3518
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3516
+msgid "All installations and activations have been completed."
+msgstr "All installations and activations have been completed."
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3515
+#: inc/tgm/class-tgm-plugin-activation.php:3523
+msgid "Hide Details"
+msgstr "Hide Details"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3515
+#: inc/tgm/class-tgm-plugin-activation.php:3523
+msgid "Show Details"
+msgstr "Show Details"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3515
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installed and activated successfully."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3513
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+msgid "The installation of %1$s failed."
+msgstr "The installation of %1$s failed."
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgm/class-tgm-plugin-activation.php:3507
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "An error occurred while installing %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3504
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Updating Plugin %1$s (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3164
+msgid "Plugin activation failed."
+msgstr "Plugin activation failed."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2940
+msgid "No plugins are available to be activated at this time."
+msgstr "No plugins are available to be activated at this time."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2914
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "No plugins were selected to be activated. No action taken."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2808
+msgid "No plugins are available to be updated at this time."
+msgstr "No plugins are available to be updated at this time."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2806
+msgid "No plugins are available to be installed at this time."
+msgstr "No plugins are available to be installed at this time."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2765
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "No plugins were selected to be updated. No action taken."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2763
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "No plugins were selected to be installed. No action taken."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2732
+msgid "Activate"
+msgstr "Activate"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2729
+msgid "Update"
+msgstr "Update"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2723
+msgid "Install"
+msgstr "Install"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2690
+msgid "Upgrade message from the plugin author:"
+msgstr "Upgrade message from the plugin author:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2620
+msgid "Activate %2$s"
+msgstr "Activate %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2614
+msgid "Update %2$s"
+msgstr "Update %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2609
+msgid "Install %2$s"
+msgstr "Install %2$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2560
+msgid "Status"
+msgstr "Status"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2559
+msgid "Version"
+msgstr "Version"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2555
+msgid "Type"
+msgstr "Type"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2554
+msgid "Source"
+msgstr "Source"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2553
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2539
+msgid "No plugins to install, update or activate."
+msgstr "No plugins to install, update or activate."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2516
+msgid "Available version:"
+msgstr "Available version:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2504
+msgid "Minimum required version:"
+msgstr "Minimum required version:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2496
+msgid "Installed version:"
+msgstr "Installed version:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2488
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "unknown"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2406
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "To Activate <span class=\"count\">(%s)</span>"
+msgstr[1] "To Activate <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2402
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Update Available <span class=\"count\">(%s)</span>"
+msgstr[1] "Update Available <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2398
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "To Install <span class=\"count\">(%s)</span>"
+msgstr[1] "To Install <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2394
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "All <span class=\"count\">(%s)</span>"
+msgstr[1] "All <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/tgm/class-tgm-plugin-activation.php:2348
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2339
+msgid "Update recommended"
+msgstr "Update recommended"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2336
+msgid "Requires Update"
+msgstr "Requires Update"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2333
+msgid "Required Update not Available"
+msgstr "Required Update not Available"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2327
+msgid "Active"
+msgstr "Active"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2325
+msgid "Installed But Not Activated"
+msgstr "Installed But Not Activated"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2321
+msgid "Not Installed"
+msgstr "Not Installed"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2304
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2301
+msgid "External Source"
+msgstr "External Source"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2298
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2282
+msgid "Recommended"
+msgstr "Recommended"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2279
+msgid "Required"
+msgstr "Required"
+
+#. translators: %s: version number
+#: inc/tgm/class-tgm-plugin-activation.php:1988
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:1127
+#: inc/tgm/class-tgm-plugin-activation.php:2954
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "and"
+
+#: inc/tgm/class-tgm-plugin-activation.php:943
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+
+#: inc/tgm/class-tgm-plugin-activation.php:940
+#: inc/tgm/class-tgm-plugin-activation.php:943
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+
+#: inc/tgm/class-tgm-plugin-activation.php:940
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+
+#: inc/tgm/class-tgm-plugin-activation.php:529
+msgid "Update Required"
+msgstr "Update Required"
+
+#: inc/tgm/class-tgm-plugin-activation.php:528
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "This plugin needs to be updated to be compatible with your theme."
+
+#: inc/tgm/class-tgm-plugin-activation.php:403
+msgid "Please contact the administrator of this site for help."
+msgstr "Please contact the administrator of this site for help."
+
+#: inc/tgm/class-tgm-plugin-activation.php:402
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "There are one or more required or recommended plugins to install, update or activate."
+
+#: inc/tgm/class-tgm-plugin-activation.php:401
+msgid "Dismiss this notice"
+msgstr "Dismiss this notice"
+
+#. translators: 1: dashboard link.
+#: inc/tgm/class-tgm-plugin-activation.php:400
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "All plugins installed and activated successfully. %1$s"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:398
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:396
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "No action taken. Plugin %1$s was already active."
+
+#: inc/tgm/class-tgm-plugin-activation.php:394
+#: inc/tgm/class-tgm-plugin-activation.php:2958
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "The following plugin was activated successfully:"
+msgstr[1] "The following plugins were activated successfully:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:393
+#: inc/tgm/class-tgm-plugin-activation.php:3165
+msgid "Plugin activated successfully."
+msgstr "Plugin activated successfully."
+
+#: inc/tgm/class-tgm-plugin-activation.php:392
+#: inc/tgm/class-tgm-plugin-activation.php:833
+#: inc/tgm/class-tgm-plugin-activation.php:2539
+#: inc/tgm/class-tgm-plugin-activation.php:3586
+msgid "Return to the Dashboard"
+msgstr "Return to the Dashboard"
+
+#: inc/tgm/class-tgm-plugin-activation.php:391
+msgid "Return to Required Plugins Installer"
+msgstr "Return to Required Plugins Installer"
+
+#: inc/tgm/class-tgm-plugin-activation.php:386
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Begin activating plugin"
+msgstr[1] "Begin activating plugins"
+
+#: inc/tgm/class-tgm-plugin-activation.php:381
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Begin updating plugin"
+msgstr[1] "Begin updating plugins"
+
+#: inc/tgm/class-tgm-plugin-activation.php:376
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Begin installing plugin"
+msgstr[1] "Begin installing plugins"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:370
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "The following recommended plugin is currently inactive: %1$s."
+msgstr[1] "The following recommended plugins are currently inactive: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:363
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "The following required plugin is currently inactive: %1$s."
+msgstr[1] "The following required plugins are currently inactive: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:356
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "There is an update available for: %1$s."
+msgstr[1] "There are updates available for the following plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:349
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[1] "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:342
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "This theme recommends the following plugin: %1$s."
+msgstr[1] "This theme recommends the following plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:335
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "This theme requires the following plugin: %1$s."
+msgstr[1] "This theme requires the following plugins: %1$s."
+
+#: inc/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Something went wrong with the plugin API."
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "Updating Plugin: %s"
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "Installing Plugin: %s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Install Plugins"
+
+#: inc/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Install Required Plugins"
+
+#: inc/template-functions.php:281
+msgid "Add a menu"
+msgstr "Add a menu"
+
+#. translators: 1: date, 2: time
+#: inc/template-functions.php:234
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: inc/premium-screen/index.php:17
+msgid "Documentation"
+msgstr "Documentation"
+
+#: inc/premium-screen/index.php:15
+msgid "Live Demo "
+msgstr "Live Demo"
+
+#: inc/premium-screen/index.php:14
+msgid "Buy Now ( Pro )"
+msgstr "Buy Now (Pro)"
+
+#: inc/premium-screen/index.php:12
+msgid "Joyas eCommerce Theme"
+msgstr "Joyas eCommerce Theme"
+
+#: inc/customizer/theme-option.php:303
+msgid "Footer Copyright Text"
+msgstr "Footer Copyright Text"
+
+#: inc/customizer/theme-option.php:286
+msgid "Copyright"
+msgstr "Copyright"
+
+#: inc/customizer/theme-option.php:269
+msgid "Page Layout Options"
+msgstr "Page Layout Options"
+
+#: inc/customizer/theme-option.php:251
+msgid "Page Management"
+msgstr "Page Management"
+
+#: inc/customizer/theme-option.php:241
+msgid "Hide Single post Meta Info ?"
+msgstr "Hide Single post Meta Info?"
+
+#: inc/customizer/theme-option.php:225
+msgid "Hide Blog Archive Meta Info?"
+msgstr "Hide Single Post Meta Info?"
+
+#: inc/customizer/theme-option.php:207
+msgid "Read more text"
+msgstr "Read more text"
+
+#: inc/customizer/theme-option.php:190
+msgid "Content"
+msgstr "Content"
+
+#: inc/customizer/theme-option.php:189
+msgid "Excerpt"
+msgstr "Excerpt"
+
+#: inc/customizer/theme-option.php:186
+msgid "Choose Archive, Blog Page Content type as default"
+msgstr "Choose Archive, Blog Page Content type as Default"
+
+#: inc/customizer/theme-option.php:185
+msgid "Archive Content Type"
+msgstr "Archive Content Type"
+
+#: inc/customizer/theme-option.php:144 inc/customizer/theme-option.php:167
+#: inc/customizer/theme-option.php:275
+msgid "No Sidebar"
+msgstr "No Sidebar"
+
+#: inc/customizer/theme-option.php:143 inc/customizer/theme-option.php:166
+#: inc/customizer/theme-option.php:274
+msgid "Content - Primary Sidebar"
+msgstr "Content - Primary Sidebar"
+
+#: inc/customizer/theme-option.php:142 inc/customizer/theme-option.php:165
+#: inc/customizer/theme-option.php:273
+msgid "Primary Sidebar - Content"
+msgstr "Primary Sidebar - Content"
+
+#: inc/customizer/theme-option.php:139 inc/customizer/theme-option.php:162
+#: inc/customizer/theme-option.php:271
+msgid "Choose between different layout options to be used as default"
+msgstr "Choose between different layout options to be used as default"
+
+#: inc/customizer/theme-option.php:138 inc/customizer/theme-option.php:161
+msgid "Blog Layout Options"
+msgstr "Blog Layout Options"
+
+#: inc/customizer/theme-option.php:121
+msgid "Blog Management"
+msgstr "Blog Management"
+
+#: inc/customizer/theme-option.php:110
+msgid "Styling Options"
+msgstr "Styling Options"
+
+#: inc/customizer/theme-option.php:97
+msgid "Youtube"
+msgstr "Youtube"
+
+#: inc/customizer/theme-option.php:79
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer/theme-option.php:61 inc/customizer/theme-option.php:80
+#: inc/customizer/theme-option.php:98 inc/customizer/theme-option.php:208
+msgid "Leave empty to hide"
+msgstr "Leave empty to hide"
+
+#: inc/customizer/theme-option.php:60
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer/theme-option.php:43
+msgid "Dialogue"
+msgstr "Dialogue"
+
+#: inc/customizer/theme-option.php:26
+msgid "Top Bar"
+msgstr "Top Bar"
+
+#: inc/customizer/theme-option.php:17
+msgid "Theme Options"
+msgstr "Theme Options"
+
+#: inc/customizer/customizer.php:46
+msgid "Go PRO"
+msgstr "Go PRO"
+
+#: inc/customizer/customizer.php:45
+msgid "Upgrade to Joyas Pro!"
+msgstr "Upgrade to Joyas Pro!"
+
+#: inc/customizer/core/default.php:36
+msgid "Continue Reading"
+msgstr "Continue Reading"
+
+#: inc/customizer/core/default.php:35
+msgid "Copyright All right reserved"
+msgstr "Copyright All right reserved"
+
+#: inc/class/class-template-tags.php:150
+msgid "Tags"
+msgstr "Tags"
+
+#. translators: %s: number of comments
+#: inc/class/class-template-tags.php:133
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s Comment"
+msgstr[1] "%s Comments"
+
+#: inc/class/class-template-tags.php:57
+msgid "Posted in "
+msgstr "Posted in "
+
+#: inc/class/class-template-tags.php:51
+msgid "Posted on "
+msgstr "Posted on "
+
+#: inc/class/class-template-tags.php:45
+msgid "By - "
+msgstr "By - "
+
+#: inc/class/class-post-related.php:228
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#: inc/class/class-post-related.php:227
+msgid "Next"
+msgstr "Next"
+
+#: inc/class/class-post-related.php:226
+msgid "Previous"
+msgstr "Previous"
+
+#: inc/class/class-post-related.php:214
+msgid "Posts navigation"
+msgstr "Posts navigation"
+
+#: inc/class/class-post-related.php:213
+msgid "Next Posts"
+msgstr "Next Posts"
+
+#: inc/class/class-post-related.php:212
+msgid "Previous Posts"
+msgstr "Previous Posts"
+
+#: inc/class/class-post-related.php:175
+msgid "Next Article"
+msgstr "Next Article"
+
+#: inc/class/class-post-related.php:164
+msgid "Previous Article"
+msgstr "Previous Article"
+
+#. translators:straing
+#: inc/class/class-header.php:312
+msgid "Search Results for: %s"
+msgstr "Search Results for: %s"
+
+#: inc/class/class-header.php:227
+msgid "Search …"
+msgstr "Search …"
+
+#: inc/class/class-header.php:116
+msgid "Skip to content"
+msgstr "Skip to content"
+
+#. translators: 1: developer website, 2: WordPress url
+#: inc/class/class-footer.php:89
+msgctxt "credit to cms"
+msgid "WordPress"
+msgstr "WordPress"
+
+#. translators: 1: developer website, 2: WordPress url
+#: inc/class/class-footer.php:89
+msgid "https://wordpress.org"
+msgstr "https://en-au.wordpress.org"
+
+#. translators: 1: developer website, 2: WordPress url
+#: inc/class/class-footer.php:89
+msgctxt "credit - theme"
+msgid "Joyas Shop Theme"
+msgstr "Joyas Shop Theme"
+
+#. translators: 1: developer website, 2: WordPress url
+#: inc/class/class-footer.php:89
+msgid " %1$s By aThemeArt - Proudly powered by %2$s ."
+msgstr " %1$s By aThemeArt - Proudly powered by %2$s ."
+
+#. translators: 1: Current Year, 2: Blog Name
+#: inc/class/class-footer.php:79
+msgctxt "copyright date format"
+msgid "Y"
+msgstr "Y"
+
+#. translators: 1: Current Year, 2: Blog Name
+#: inc/class/class-footer.php:79
+msgid "Copyright &copy; %1$s %2$s. All Right Reserved."
+msgstr "Copyright &copy; %1$s %2$s. All Right Reserved."
+
+#. translators: %s: plugin name.
+#: inc/about-themes.php:106
+msgid "Welcome! Thank you for choosing joyas! To fully take advantage of the best our theme can offer please make sure you visit our %1$sLearn More Page%2$s."
+msgstr "Welcome! Thank you for choosing joyas! To fully take advantage of the best our theme can offer please make sure you visit our %1$s Learn More Page %2$s."
+
+#. translators: %s: plugin name.
+#: inc/about-themes.php:104
+msgid "Dismiss"
+msgstr "Dismiss"
+
+#. translators: %s: plugin name.
+#: inc/about-themes.php:89
+msgid "Cheatin&#8217; huh?"
+msgstr "Cheatin&#8217; huh?"
+
+#. translators: %s: plugin name.
+#: inc/about-themes.php:84
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Action failed. Please refresh the page and retry."
+
+#: inc/about-themes.php:9 inc/about-themes.php:11 inc/about-themes.php:108
+msgid "Learn More joyas"
+msgstr "Learn More joyas"
+
+#. translators: 1: title.
+#: comments.php:113
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+
+#: comments.php:112
+msgid "Your email address will not be published. Required fields are marked *."
+msgstr "Your email address will not be published. Required fields are marked *."
+
+#: comments.php:109
+msgid "Post Comment"
+msgstr "Post Comment"
+
+#: comments.php:104
+msgid "Comment"
+msgstr "Comment"
+
+#: comments.php:99
+msgid "Save my name, email, and website in this browser for the next time I comment."
+msgstr "Save my name, email, and website in this browser for the next time I comment."
+
+#: comments.php:96
+msgid "Website"
+msgstr "Website"
+
+#: comments.php:90
+msgid "Your Email"
+msgstr "Your Email"
+
+#: comments.php:85
+msgid "Your Name"
+msgstr "Your Name"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Comments are closed."
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:42
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s thought on &ldquo; %2$s &rdquo;"
+msgstr[1] "%1$s thoughts on &ldquo;%2$s&rdquo;"
+
+#. translators: 1: title.
+#: comments.php:36
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "One thought on &ldquo;%1$s&rdquo;"
+
+#: 404.php:18
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+
+#: 404.php:17 inc/class/class-header.php:316
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! That page can&rsquo;t be found"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://athemeart.com"
+msgstr "https://athemeart.com"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "aThemeArt"
+msgstr "aThemeArt"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://athemeart.com/downloads/joyas-store-wordpress-theme/"
+msgstr "https://athemeart.com/downloads/joyas-store-wordpress-theme/"

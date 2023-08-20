@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="171.179" height="22.286" viewBox="0 0 171.179 22.286">
+  <g id="Group_615" data-name="Group 615" transform="translate(-2.096)">
+    <text id="Reset_Users_Roles" data-name="Reset Users/Roles" transform="translate(37.275 16)" fill="#822abb" font-size="15" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Reset Users/Roles</tspan></text>
+    <g id="Group_337" data-name="Group 337" transform="translate(-6.87 6.332)">
+      <g id="Group_335" data-name="Group 335" transform="translate(8.966 -4.244)">
+        <g id="Group_336" data-name="Group 336" transform="translate(0 0)">
+          <path id="Path_173" data-name="Path 173" d="M8.783,4.207V5.873a4.756,4.756,0,0,0-1.594,8.044V11.972H8.783v4.783H4V15.16H6.176A6.361,6.361,0,0,1,8.783,4.207Zm7.972,1.387H14.579A6.362,6.362,0,0,1,16.7,9.58h-1.61a4.786,4.786,0,0,0-1.523-2.742V8.783H11.972V4h4.783Z" transform="translate(-4 -4)" fill="#822abb"/>
+        </g>
+      </g>
+      <g id="perm_identity_black_24dp" transform="translate(12.46 0.511)">
+        <path id="Path_230" data-name="Path 230" d="M0,0H15.443V15.443H0Z" fill="none"/>
+        <path id="Path_231" data-name="Path 231" d="M9.148,5.287A1.287,1.287,0,1,1,7.861,6.574,1.291,1.291,0,0,1,9.148,5.287m0,5.791c1.737,0,3.732.83,3.861,1.287v.643H5.287v-.637c.129-.463,2.123-1.293,3.861-1.293M9.148,4a2.574,2.574,0,1,0,2.574,2.574A2.573,2.573,0,0,0,9.148,4Zm0,5.791C7.43,9.791,4,10.653,4,12.365V14.3H14.3v-1.93C14.3,10.653,10.866,9.791,9.148,9.791Z" transform="translate(-1.426 -1.426)" fill="#822abb"/>
+      </g>
+    </g>
+  </g>
+</svg>

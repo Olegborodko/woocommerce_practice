@@ -1,0 +1,657 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	/* Button */
+	.awpr-button {
+		@apply inline-flex items-center justify-center text-center px-3 py-1 gap-2 text-[13px] font-normal text-inherit border border-transparent bg-transparent transition-all ease-in-out;
+	}
+
+	.awpr-button-primary {
+		@apply text-white border-awpr-brand bg-awpr-brand hover:bg-purple-900 hover:border-purple-900 hover:text-white focus:bg-purple-900 focus:border-purple-900 focus:text-white;
+	}
+
+	.awpr-button-outline-primary {
+		@apply text-awpr-brand border-awpr-brand hover:bg-purple-900 hover:border-purple-900 hover:text-white focus:bg-purple-900 focus:border-purple-900 focus:text-white;
+	}
+
+	.awpr-button-dark {
+		@apply text-white border-awpr-gray bg-awpr-gray hover:bg-awpr-dark-gray hover:border-awpr-dark-gray hover:text-white focus:bg-awpr-dark-gray focus:border-awpr-dark-gray focus:text-white;
+	}
+
+	.awpr-button-outline-dark {
+		@apply text-awpr-gray border-awpr-gray hover:bg-awpr-dark-gray hover:border-awpr-dark-gray hover:text-white focus:bg-awpr-dark-gray focus:border-awpr-dark-gray focus:text-white;
+	}
+
+	.awpr-button-success {
+		@apply text-white border-awpr-success bg-awpr-success hover:bg-green-700 hover:border-green-700 hover:text-white focus:bg-green-700 focus:border-green-700 focus:text-white;
+	}
+
+	.awpr-button-outline-success {
+		@apply text-awpr-success border-awpr-success hover:bg-green-700 hover:border-green-700 hover:text-white focus:bg-green-700 focus:border-green-700 focus:text-white;
+	}
+
+	.awpr-button-danger {
+		@apply text-white border-awpr-danger bg-awpr-danger hover:bg-awpr-danger-dark hover:border-awpr-danger-dark hover:text-white focus:bg-awpr-danger-dark focus:border-awpr-danger-dark focus:text-white;
+	}
+
+	.awpr-button-outline-danger {
+		@apply text-awpr-danger border-awpr-danger hover:bg-awpr-danger-dark hover:border-awpr-danger-dark hover:text-white focus:bg-awpr-danger-dark focus:border-awpr-danger-dark focus:text-white;
+	}
+
+	.awpr-link {
+		@apply inline-block font-medium text-awpr-brand hover:text-purple-900 transition no-underline hover:underline;
+	}
+}
+
+.tools_page_awp-reset-pro {
+	background-color: #f7f8fc;
+}
+
+#awpr-plugin-content input {
+	margin: 0 !important;
+}
+
+/* Tab menu */
+
+.awpr-tab-menu {
+	@apply flex flex-wrap justify-start items-center gap-2 2xl:gap-4;
+}
+
+.awpr-tab-item {
+	@apply m-0;
+}
+
+.awpr-tab-item a {
+	@apply text-[13px] font-normal bg-awpr-light-gray flex items-center gap-2 text-awpr-gray px-3 2xl:px-4 py-[5px] border border-awpr-border relative;
+}
+
+.awpr-tab-item a:after {
+	@apply content-[''] absolute top-full left-1/2 -ml-1.5 border-[6px] border-transparent border-t-[#822abb] opacity-0;
+}
+
+.awpr-tab-item a svg {
+	@apply fill-awpr-gray;
+}
+
+.awpr-active > a {
+	@apply bg-awpr-brand border-transparent text-[#f7f8fc];
+}
+
+.awpr-active > a:after {
+	@apply opacity-100;
+}
+
+.awpr-tab-item.awpr-active a:focus,
+.awpr-tab-item.awpr-active a:active {
+	@apply outline-0 shadow-none;
+}
+
+.awpr-active > a svg {
+	@apply fill-[#f7f8fc];
+}
+
+/* Tab menu premium style */
+
+.awpr-tab-item.awpr-premium a {
+	@apply border-[#FF8E3E] bg-[#FF8E3E]/5;
+}
+
+.premium-badge {
+	@apply border border-[#FF8E3E] bg-[#FF8E3E]/5 text-[10px] text-[#FF8E3E] rounded-full px-1.5 py-[3px] inline-flex gap-0.5 leading-none items-center justify-center text-center font-medium;
+}
+
+.awpr-tab-item.awpr-premium.awpr-active a {
+	@apply bg-awpr-brand border-transparent text-[#f7f8fc];
+}
+
+/* Tab contents */
+
+#awpr_tab_contents {
+	@apply mt-4;
+}
+
+/* Accordion style */
+
+.awpr-single-accordion {
+	@apply bg-white mb-4 rounded-[5px] relative;
+
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+.awpr-accordion-title-wrapper {
+	@apply flex justify-between items-center px-4 md:px-[30px] py-[14px];
+}
+
+.awpr-accordion-title-wrapper.is-open:not(.awpr-acc-warning) {
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+
+	border-radius: 0 0 5px 5px;
+}
+
+.awpr-acc-arrow {
+	@apply cursor-pointer transform rotate-0 transition;
+}
+
+.is-open .awpr-acc-arrow {
+	@apply rotate-180;
+}
+
+.awpr-accordion-content {
+	@apply p-6 md:p-8;
+}
+
+.awpr-accordion-title {
+	@apply text-[15px] font-semibold flex items-center gap-2 md:gap-5 text-awpr-brand cursor-pointer;
+}
+
+.awpr-accordion-icon [class^="icon-"],
+.awpr-accordion-icon [class*=" icon-"] {
+	@apply text-awpr-brand;
+}
+
+.awpr-accordion-action-group {
+	@apply absolute right-16 md:right-[85px] top-[17px] z-10 flex items-center justify-between gap-6 md:gap-10;
+}
+
+.awpr-accordion-action-group button {
+	@apply relative text-awpr-brand;
+}
+
+.awpr-accordion-action-group button::after {
+	@apply content-[''] absolute top-1/2 -right-3 md:-right-5 transform -translate-y-1/2 w-[1px] h-[14px] bg-awpr-gray;
+}
+
+.awpr-accordion-content > p {
+	@apply text-xs leading-[22px] text-awpr-gray font-normal mb-3;
+}
+
+/* Warning accordion override */
+
+.awpr-acc-warning .awpr-accordion-title {
+	@apply text-awpr-danger uppercase relative;
+}
+
+.awpr-acc-warning .awpr-accordion-icon [class^="icon-"],
+.awpr-acc-warning .awpr-accordion-icon [class*=" icon-"] {
+	@apply text-awpr-danger;
+}
+
+.awpr-acc-warning {
+	@apply relative;
+}
+
+.awpr-acc-warning:after {
+	@apply absolute bottom-0 left-[30px] bg-awpr-danger opacity-0;
+
+	content: "";
+
+	width: calc(100% - 60px);
+
+	height: 1px;
+}
+
+.is-open.awpr-acc-warning::after {
+	@apply opacity-100;
+}
+
+/* Widget style */
+
+.awpr-widget {
+	@apply border border-awpr-brand rounded-[5px] p-8;
+}
+
+.awpr-widget-title {
+	@apply flex items-center gap-2 text-base pb-3 font-semibold text-awpr-brand border-b border-awpr-brand;
+}
+
+.awpr-widget-text {
+	@apply text-sm leading-[18px] text-awpr-brand font-light;
+}
+
+/* Reset form */
+
+.awpr-reset-form input {
+	@apply bg-awpr-light-gray border-0 rounded-none text-sm px-3 placeholder:text-[#B9B9B9] min-h-[2rem];
+}
+
+/* Nested accordion plus minus icon */
+
+/* .awpr-nested-ac-heading > div {
+
+	@apply cursor-pointer;
+
+} */
+
+.awpr-cc-toggle-icon {
+	@apply relative inline-block w-6 h-6 cursor-pointer;
+}
+
+.awpr-cc-toggle-icon:before {
+	@apply content-[''] absolute w-3 h-0.5 bg-[#7A6A84] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition;
+}
+
+.awpr-cc-toggle-icon:after {
+	@apply content-[''] absolute w-0.5 h-3 bg-[#7A6A84] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition;
+}
+
+.is-open .awpr-cc-toggle-icon:after,
+.awpr-cc-toggle-icon.is-open:after {
+	@apply opacity-0;
+}
+
+.awpr-nested-accordion:has(.is-open) {
+	background-color: #f8fcff;
+}
+
+/* Input radio label */
+
+.awpr-radio-label:after {
+	@apply absolute bottom-[-5px] right-0 h-[1px] bg-awpr-gray z-0 w-full content-[''];
+}
+
+.awr-accordion-reset .awpr-radio-label:after {
+	width: calc(100% + 32px);
+}
+
+.awr-settings-automated-settings .awpr-radio-label:after {
+	width: calc(100% + 40px);
+}
+
+.awpr-sub-accordion-icon {
+	@apply transform rotate-0;
+}
+
+.awpr-nested-ac-heading.is-open .awpr-sub-accordion-icon {
+	@apply rotate-180;
+}
+
+.awpr-single-radio .awpr-nested-accordion {
+	background-color: transparent;
+}
+
+.awpr-single-radio p,
+.awpr-list li {
+	@apply text-xs leading-[22px] text-awpr-gray font-normal;
+}
+
+/* Form style */
+
+.awpr-check-input-item {
+	@apply flex flex-col items-start gap-1 mb-2;
+}
+
+.awpr-check-input-item input:not([type="checkbox"]):not([type="radio"]),
+.awpr-check-input-item textarea {
+	@apply w-full px-2 py-1 border border-[#CBBDD4] rounded-none text-xs text-awpr-dark-gray placeholder:text-[#B9B9B9] bg-transparent;
+}
+
+.awpr-check-input-item label,
+.awpr-single-check-content > label {
+	@apply text-xs text-awpr-gray font-medium;
+}
+
+.awpr-nested-content-wrapper,
+.awpr-content-can-be-disabled {
+	@apply relative;
+}
+
+.awpr-single-radio .awpr-nested-content-wrapper,
+.awpr-content-can-be-disabled {
+	@apply opacity-50 pointer-events-none;
+}
+
+.awpr-selected-radio.awpr-single-radio .awpr-nested-content-wrapper,
+.awpr-content-enabled .awpr-content-can-be-disabled {
+	@apply opacity-100 pointer-events-auto;
+}
+
+.awpr-single-table-item-name {
+	@apply text-xs font-medium;
+}
+
+/* Popup style */
+
+.awpr-popup {
+	@apply fixed inset-x-0 top-1/2 transform -translate-y-1/2 w-full h-full z-50 transition grid place-content-center opacity-0 invisible;
+}
+
+.awpr-popup.show {
+	opacity: 1;
+
+	visibility: visible;
+}
+
+.awpr-popup-buttons button {
+	@apply grow h-11 text-sm font-medium;
+}
+
+.awpr-popup-buttons button:last-child {
+	@apply bg-[#F8FCFF] text-awpr-gray;
+}
+
+.awpr-popup-buttons button:first-child {
+	@apply text-white hover:opacity-90;
+}
+
+.awpr-popup-brand .awpr-popup-buttons button:first-child {
+	@apply bg-awpr-brand;
+}
+
+.awpr-popup-brand .awpr-popup-buttons button:last-child {
+	@apply text-awpr-brand;
+}
+
+.awpr-popup-brand .awpr-popup-heading h2 {
+	@apply text-awpr-brand;
+}
+
+.awpr-popup-danger .awpr-popup-heading h2 {
+	@apply text-awpr-danger;
+}
+
+.awpr-popup-danger .awpr-popup-buttons button:first-child {
+	@apply bg-awpr-danger;
+}
+
+.awpr-popup-success .awpr-popup-heading h2 {
+	@apply text-awpr-success;
+}
+
+.awpr-popup-success .awpr-popup-buttons button:first-child {
+	@apply bg-awpr-success;
+}
+
+/* Dropdown */
+
+.awpr-dropdown {
+	@apply relative inline-block;
+}
+
+.awpr-dropdown-content {
+	@apply absolute top-full left-0 z-20 bg-white shadow-md p-2 transition transform translate-y-2 opacity-0 invisible;
+}
+
+.awpr-dropdown-content.open {
+	opacity: 1;
+
+	visibility: visible;
+
+	transform: translateY(0);
+}
+
+.awpr-accordion-content-wrapper,
+.awpr_accordion_content_panel {
+	@apply hidden;
+}
+
+.awpr-activation-panel {
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+
+	border-radius: 5px;
+}
+
+input[type="color"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="datetime"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select,
+textarea {
+	@apply !text-awpr-gray !border-awpr-gray !outline-none;
+}
+
+.awpr-select-input {
+	background: #fff
+		url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10.135 5.775'%3E%3Cpath fill='none' stroke='%237a6a84' d='M9.781.353 5.067 5.067.353.353'/%3E%3C/svg%3E")
+		no-repeat right 5px top 55% !important;
+
+	background-size: 12px 12px !important;
+}
+
+.awpr-nested-ac-heading.is-open .awpr-nested-ac-heading-title {
+	@apply font-semibold;
+}
+
+/* Improvments - 15 July */
+
+.awpr-single-table-item,
+.awpr-single-table-item.awr-reset-element-inactive {
+	@apply bg-transparent;
+}
+
+.awpr-single-table-item .awpr-single-table-item-name,
+.awpr-single-table-item.awr-reset-element-inactive .awpr-single-table-item-name {
+	@apply font-normal;
+}
+
+.awpr-single-table-item.awr-reset-element-activate {
+	@apply bg-awpr-success-light;
+}
+
+.awpr-single-table-item.awr-reset-element-activate .awpr-single-table-item-name {
+	@apply font-medium;
+}
+
+.awpr-single-table-item.awr-reset-element-uninstall .awpr-single-table-item-name {
+	@apply font-medium line-through text-awpr-danger-dark;
+}
+
+/* Popup */
+
+#swal2-html-container {
+	@apply !m-0;
+}
+
+.swal2-popup {
+	@apply !p-0;
+}
+
+.swal2-actions {
+	width: 100%;
+}
+
+.swal2-close {
+	@apply absolute !top-0.5 !right-0.5 !m-0 !p-0 !shadow-none;
+}
+
+.swal2-close:focus {
+	@apply !shadow-none !border-none !outline-none;
+}
+
+.awpr-popup-btn {
+	@apply bg-transparent border border-transparent text-base font-medium py-3 px-6 flex-1 transition;
+}
+
+.awpr-popup-btn-light {
+	@apply bg-slate-200 border-slate-200 text-awpr-gray;
+}
+
+.awpr-popup-btn-light:hover {
+	@apply bg-slate-300 border-slate-300 text-awpr-gray;
+}
+
+.awpr-popup-btn-brand {
+	@apply bg-awpr-brand border-awpr-brand text-white;
+}
+
+.awpr-popup-btn-brand:hover {
+	@apply bg-awpr-brand border-awpr-brand text-white;
+}
+
+.awpr-popup-btn-danger {
+	@apply bg-awpr-danger border-awpr-danger text-white;
+}
+
+.awpr-popup-btn-danger:hover {
+	@apply bg-awpr-danger-dark border-awpr-danger-dark text-white;
+}
+
+.awpr-premium-frame {
+	@apply border border-[#FF8E3E] bg-[#FF8E3E]/5 rounded-xl p-6;
+}
+
+/* Snapshot comparison - Differences Table */
+
+.Differences {
+	@apply w-full;
+}
+
+.Differences thead th {
+	@apply text-left text-sm font-bold text-white bg-awpr-brand p-4;
+}
+
+.Differences tbody th {
+	@apply w-8 py-2 text-xs text-center align-baseline font-normal bg-[#1D2327]/5;
+}
+
+.Differences tbody td {
+	@apply py-2 px-4 text-xs;
+}
+
+.Differences .line-number {
+	@apply w-8 text-center align-baseline bg-[#F0EFF3];
+}
+
+.Differences .ChangeInsert td.Left {
+	background: #dfd;
+}
+
+.Differences .ChangeInsert td.Right {
+	background: #cfc;
+}
+
+.Differences .ChangeDelete td.Left {
+	background: #f88;
+}
+
+.Differences .ChangeDelete td.Right {
+	background: #faa;
+}
+
+.Differences .ChangeReplace td.Left {
+	background: #fe9;
+}
+
+.Differences .ChangeReplace td.Right {
+	background: #fd8;
+}
+
+.Differences ins,
+.Differences del {
+	text-decoration: none;
+}
+
+.DifferencesSideBySide .ChangeReplace ins,
+.DifferencesSideBySide .ChangeReplace del {
+	background: #fc0;
+}
+
+.Differences .Skipped {
+	background: #f7f7f7;
+}
+
+.DifferencesInline .ChangeReplace .Left,
+.DifferencesInline .ChangeDelete .Left {
+	background: #fdd;
+}
+
+.DifferencesInline .ChangeReplace .Right,
+.DifferencesInline .ChangeInsert .Right {
+	background: #dfd;
+}
+
+.DifferencesInline .ChangeReplace ins {
+	background: #9e9;
+}
+
+.DifferencesInline .ChangeReplace del {
+	background: #e99;
+}
+
+pre {
+	width: 100%;
+
+	overflow: auto;
+}
+
+#wp_version_switch_errors ul {
+	@apply list-disc pl-8 mt-2.5;
+}
+
+.awpr-popup-container ul {
+	@apply list-disc pl-8 text-sm;
+}
+
+.awpr-table {
+	@apply w-full text-left;
+}
+
+.awpr-table th,
+.awpr-table td {
+	@apply text-xs p-2;
+}
+
+.awpr-table th {
+	@apply text-awpr-gray font-medium;
+}
+
+.awpr-table td {
+	@apply text-awpr-dark-gray;
+}
+
+.awpr-table-bordered-bottom th,
+.awpr-table-bordered-bottom td {
+	@apply border-b border-awpr-light-gray;
+}
+
+.wp-core-ui select {
+	@apply min-h-full text-xs align-middle pt-1.5 pb-1.5;
+}
+
+.icon-sync-wrapper {
+	transform: rotateY(180deg);
+}
+
+/* System info table */
+#awr-system-infos {
+	@apply w-full text-xs font-awpr-base text-awpr-gray;
+}
+
+#awr-system-infos th,
+#awr-system-infos td {
+	@apply align-baseline;
+}
+
+#awr-system-infos th {
+	@apply pt-6 pb-1 text-sm;
+}
+
+#awr-system-infos tr:first-child th {
+	@apply pt-0;
+}
+
+#awr-system-infos td {
+	@apply p-1.5 border-b border-[#f6f7f7];
+}
+
+#awr-system-infos td:first-child {
+	@apply w-2/5;
+}
+
+#awr-system-infos ul {
+	@apply leading-[inherit] pl-4;
+	font-size: inherit;
+}

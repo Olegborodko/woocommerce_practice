@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="122.179" height="22.911" viewBox="0 0 122.179 22.911">
+  <g id="Group_618" data-name="Group 618" transform="translate(-296.13 -1205.306)">
+    <g id="Group_614" data-name="Group 614" transform="translate(294.034 1207.218)">
+      <text id="Reset_Posts" data-name="Reset Posts" transform="translate(37.275 16)" fill="#822abb" font-size="15" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Reset Posts</tspan></text>
+      <g id="Group_337" data-name="Group 337" transform="translate(-6.87 6.332)">
+        <g id="Group_335" data-name="Group 335" transform="translate(8.966 -8.244)">
+          <g id="Group_336" data-name="Group 336" transform="translate(0 0)">
+            <path id="Path_173" data-name="Path 173" d="M8.783,4.207V5.873a4.756,4.756,0,0,0-1.594,8.044V11.972H8.783v4.783H4V15.16H6.176A6.361,6.361,0,0,1,8.783,4.207Zm7.972,1.387H14.579A6.362,6.362,0,0,1,16.7,9.58h-1.61a4.786,4.786,0,0,0-1.523-2.742V8.783H11.972V4h4.783Z" transform="translate(-4 -4)" fill="#822abb"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(306 1214)" fill="none" stroke="#822abb" stroke-width="1.5">
+      <circle cx="1.5" cy="1.5" r="1.5" stroke="none"/>
+      <circle cx="1.5" cy="1.5" r="0.75" fill="none"/>
+    </g>
+    <g id="Rectangle_387" data-name="Rectangle 387" transform="translate(302 1212)" fill="none" stroke="#822abb" stroke-linejoin="round" stroke-width="1.5">
+      <rect width="12" height="11" stroke="none"/>
+      <rect x="0.75" y="0.75" width="10.5" height="9.5" fill="none"/>
+    </g>
+    <path id="Path_369" data-name="Path 369" d="M302.359,1222.213l3.816-3.088,3.34,3.492" transform="translate(0.783 -0.453)" fill="none" stroke="#822abb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_370" data-name="Path 370" d="M312.8,1219.554l-2.042-1.6-2.869,2.34" transform="translate(0.401 -0.453)" fill="none" stroke="#822abb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>
