@@ -1,2 +1,11 @@
 1. Качаем пустую тему с https://underscores.me/
 
+2. подключаем в functions.php стили
+get_template_directory_uri() - путь до папки темы
+get_stylesheet_uri() - путь к style.css в теме
+wp_enqueue_style();
+
+3. подключаем скрипты
+wp_enqueue_script('jquery'); //jquery уже подключен в wp,
+а таким образом мы его вызываем
+
