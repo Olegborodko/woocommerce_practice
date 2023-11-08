@@ -501,6 +501,7 @@ table.variations th, table.variations td {
     font-size: 90%;
     padding-bottom: 20px;
     color: var(--tertiary-color);
+    min-height: 50px;
 }
 .related.products h2,
 .upsells.products h2,

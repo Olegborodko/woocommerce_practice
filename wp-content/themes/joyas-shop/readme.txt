@@ -93,6 +93,9 @@ License:  Self created by athemeart.com
 1. screenshot.png
 
 == Upgrade Notice  ==
+= 1.1.3 =
+* WooCommerce variation price space add 
+
 = 1.1.2 =
 * Fixed Deprecated: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in C:\laragon\www\wp612\wp-includes\kses.php on line 1729
 
